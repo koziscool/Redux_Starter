@@ -53,6 +53,7 @@ CoursesPage.propTypes = {
   actions: PropTypes.object.isRequired
 };
 
+
 function mapStateToProps( state, ownProps ){
   // debugger;
   return{
@@ -65,8 +66,6 @@ function mapDispatchToProps( dispatch ){
     actions: bindActionCreators( courseActions, dispatch )
   };
 }
-
-
 
 export default connect(mapStateToProps, mapDispatchToProps) (CoursesPage);
 
