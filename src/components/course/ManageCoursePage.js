@@ -19,7 +19,6 @@ export class ManageCoursePage extends React.Component {
     this.saveCourse = this.saveCourse.bind( this );
   }
 
-
   // populates course form when loaded directly thru url
   componentWillReceiveProps( newProps ){
     if( this.props.course.id !== newProps.course.id ){
