@@ -46,7 +46,6 @@ describe('Course Reducer', ()=>{
     expect(prevCourse.title).toEqual('A');
   });
 
-
 });
 
 
